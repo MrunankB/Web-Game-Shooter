@@ -1,5 +1,6 @@
 /*
  * Scripts for GameObjects go here
+ Yeah have great luck
  */
 class PlayerScript extends Component
 {
