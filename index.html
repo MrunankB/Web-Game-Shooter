@@ -1,0 +1,31 @@
+﻿<!--=============================================
+-----------------------------------
+Copyright (c) 2016 Emmanuel Vaccaro
+-----------------------------------
+@file: index.html
+@date: 25/09/2016
+@author: Emmanuel Vaccaro
+@brief: Defines the webpage layout
+===============================================-->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Title for our web page (displayed in new tab)-->
+    <title>GameProject</title>
+    <!-- Applying character set for page (how text is read by the browser)-->
+    <meta charset="utf-8"/>
+    <!-- Attaching stylesheet css file to web page -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+    <!-- Content divider container -->
+    <div id="content">
+        <!-- Canvas element that we draw on -->
+        <canvas id="GameCanvas" width="720" height="800"></canvas>
+    </div>
+
+    <script type="text/javascript" src="js/thirdparty/gameengine.js"></script>
+    <!-- Code that you link must be in order of dependencies -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
