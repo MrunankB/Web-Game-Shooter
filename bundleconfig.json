@@ -1,0 +1,31 @@
+[
+  {
+    "outputFileName": "js/thirdparty/gameengine.js",
+    "inputFiles": [
+      "js/thirdparty/jquery-2.2.2.js",
+      "js/thirdparty/initialize.js",
+      "js/thirdparty/vector.js",
+      "js/thirdparty/baseobject.js",
+      "js/thirdparty/components.js",
+      "js/thirdparty/gameobject.js",
+      "js/thirdparty/gizmos.js",
+      "js/thirdparty/inputmanager.js",
+      "js/thirdparty/physics.js",
+      "js/thirdparty/renderer.js",
+      "js/thirdparty/transform.js",
+      "js/thirdparty/engine.js"
+    ]
+  },
+  {
+    "outputFileName": "js/main.js",
+    "inputFiles": [
+      "js/scripts.js",
+      "js/scene.js"
+/* 
+      Place new files here e.g:
+      "js/script1.js", 
+      "js/script2.js",
+*/
+    ]
+  }
+]
